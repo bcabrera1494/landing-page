@@ -101,9 +101,9 @@ a {
     background-color: #1F2937;
     color: #e5e7eb;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 48px;
+    gap: 32px;
     padding-left: 200px;
     padding-right: 200px;
     border: groove 20px #1F2937;
