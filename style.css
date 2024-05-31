@@ -57,6 +57,10 @@ h2 {
     text-align: center;
 }
 
+#c {
+    text-align: center;
+}
+
 .links {
     display: flex;
     flex-direction: row-reverse;
