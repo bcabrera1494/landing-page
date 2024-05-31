@@ -106,6 +106,7 @@ a {
     gap: 32px;
     border: groove 20px #1F2937;
     border-radius: 20px;
+    padding: 8px;
 }
 
 .action-container {
@@ -119,12 +120,16 @@ a {
 .action-button {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    padding: 32px;
+    margin-right: 32px;
 }
 
 .action-text {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 .footer {
