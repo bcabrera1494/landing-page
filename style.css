@@ -98,14 +98,26 @@ a {
     padding: 100px;
 }
 .action {
+    background-color: #1F2937;
     color: #e5e7eb;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 48px;
-    padding: 10px;
-    
+    padding-left: 200px;
+    padding-right: 200px;
+    border: groove 20px #1F2937;
+    border-radius: 20px;
 }
+
+.action-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    
+}    
+
 .footer {
     background-color:#e5e7eb;
     display: flex;
