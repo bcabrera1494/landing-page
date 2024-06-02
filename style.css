@@ -23,15 +23,17 @@ p {
     font-size: 18px;
     margin: 100px 100px;
     margin-right: 12px;
+    color: #e5e7eb;
 }
 
 .hero {
 display: flex;
-flex-direction: column wrap;
+flex-flow: row wrap;
 background-color: #1F2937;
 color: #e5e7eb;
-justify-content: space-around;
+justify-content: space-between;
 padding-bottom: 100px;
+padding-left: 32px;
 }
 
 .grid {
