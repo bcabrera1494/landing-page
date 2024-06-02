@@ -11,9 +11,12 @@ body {
     background-color: whitesmoke;
 }
 
+p {
+    color: white;
+}
+
 .header {
     background-color: #1F2937;
-    color: #e5e7eb;
     display: flex;
     gap: 42px;
     justify-content:space-between;
@@ -72,13 +75,14 @@ h2 {
     background-color: #e5e7eb;
 }
 
-.links > ul {
+.links ul {
     list-style-type: none;
     display: flex;
     gap: 32px;
 }
 
-.links > a {
+a {
+    text-decoration: none;
     color: #e5e7eb;
 }
 
@@ -90,9 +94,6 @@ h2 {
     justify-content: space-evenly;
 }
 
-a {
-    text-decoration: none;
-}
 .quote {
     display: flex;
     padding: 100px;
@@ -122,7 +123,9 @@ a {
     justify-content: center;
     padding: 32px;
     margin-right: 32px;
+    
 }
+
 
 .action-text {
     display: flex;
@@ -139,12 +142,14 @@ a {
     align-items: center;
     height: 72px;
 }
-
+.footer > p {
+    color: #1F2937;
+}
 button {
     background-color: #3882f6;
     height: fit-content;
     padding: 12px;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 img {
