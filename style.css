@@ -129,6 +129,30 @@ a {
     justify-content: space-evenly;
 
 }
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: black, 2px;
+    padding-left: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 10px;
+}
+
+.contact-inputs::placeholder {
+    color: rgb(141, 138, 138);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+
+.get-in-touch-form textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+    border-radius: 10px;
+}
 .action-text {
     display: flex;
     flex-wrap: wrap;
