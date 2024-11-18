@@ -121,15 +121,14 @@ a {
     justify-content: center;
 }
 
-.action-button {
+.get-in-touch-form {
     display: flex;
-    justify-content: center;
-    padding: 32px;
-    margin-right: 32px;
-    
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: space-evenly;
+
 }
-
-
 .action-text {
     display: flex;
     flex-wrap: wrap;
