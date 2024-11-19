@@ -44,10 +44,24 @@ padding-right: 48px;
 }
 
 .grid img {
-    width: calc (33.33%-10px);
+    width: auto;
     margin-bottom: 10px;
 }
 
+.grid h3 {
+    color: #1F2937;
+}
+
+#projects-title h2 {
+    color: #1F2937;
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: space-around;
+}
 @media (max-width: 786px) {
     .grid img {
         width: calc(50%-10px);
@@ -67,6 +81,7 @@ h2 {
 
 h3 {
     color: white;
+    text-align: center
 }
 
 #c {
@@ -102,9 +117,10 @@ a {
     justify-content: space-evenly;
 }
 
-.quote {
+.skills {
     display: flex;
-    padding: 100px;
+    flex-direction: column wrap;
+    justify-content: space-around;
 }
 .action {
     background-color: #1F2937;
